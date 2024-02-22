@@ -1,0 +1,51 @@
+.swiper-pagination-bullet-active {
+  background-color: white;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: white
+}
+
+.filepond--credits {
+  display: none;
+}
+
+.like-flip-animation {
+  -webkit-animation: flip-animation 0.7s linear both;
+  animation: flip-animation 0.7s linear both;
+}
+
+@-webkit-keyframes flip-animation {
+  0% {
+    -webkit-transform: scale(1) rotate3d(-1, 1, 0, 0deg);
+    transform: scale(1) rotate3d(-1, 1, 0, 0deg) translate(50%, -50%);
+  }
+
+  50% {
+    -webkit-transform: scale(2) rotate3d(-1, 1, 0, 180deg);
+    transform: scale(2) rotate3d(-1, 1, 0, 180deg) translate(25%, -25%);
+  }
+
+  100% {
+    -webkit-transform: scale(1) rotate3d(-1, 1, 0, 360deg);
+    transform: scale(1) rotate3d(-1, 1, 0, 360deg) translate(50%, -50%);
+  }
+}
+
+@keyframes flip-animation {
+  0% {
+    -webkit-transform: scale(1) rotate3d(-1, 1, 0, 0deg);
+    transform: scale(1) rotate3d(-1, 1, 0, 0deg) translate(50%, -50%);
+  }
+
+  50% {
+    -webkit-transform: scale(2) rotate3d(-1, 1, 0, 180deg);
+    transform: scale(2) rotate3d(-1, 1, 0, 180deg) translate(25%, -25%);
+  }
+
+  100% {
+    -webkit-transform: scale(1) rotate3d(-1, 1, 0, 360deg);
+    transform: scale(1) rotate3d(-1, 1, 0, 360deg) translate(50%, -50%);
+  }
+}
